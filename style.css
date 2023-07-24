@@ -11,22 +11,40 @@
     'sidebar main main main'
     'sidebar main main main'
     'sidebar main main main';
-    font-size: 4rem;
+    font-size: 10rem;
     height: 100vh;
+}
+
+.header-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main-article-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 .header{
     grid-area: header;
-    background-color: aquamarine;
+    background-color: #84cc16;
 }
 
 .main{
     grid-area: main;
-    background-color: red;
+    background-color: #bef264;
 }
 
 .sidebar{
     grid-area: sidebar;
-    background-color: orange;
+    background-color: #a3e635;
+    font-size: 5rem;
 }
 
