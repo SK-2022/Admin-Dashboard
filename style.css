@@ -21,6 +21,10 @@
     gap: 20px;
 }
 
+.header-grid div {
+    display: flex;
+}
+
 .main-grid{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -48,3 +52,11 @@
     font-size: 5rem;
 }
 
+.special-div{
+    display: flex;
+    flex-direction: column;
+}   
+
+.trending-card article {
+    display: flex;
+}
