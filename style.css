@@ -40,11 +40,16 @@
 
 .header{
     grid-area: header;
-    background-color: #FFFFFF;}
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
+
+}
+    
 
 .main{
     grid-area: main;
-    background-color: #E2E8F0
+    background-color: #E2E8F0;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
 }
 
 .sidebar{
