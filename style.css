@@ -16,6 +16,10 @@
     height: 100vh;
 }
 
+.header{
+    margin-top: 15px;
+}
+
 .header-grid{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -24,6 +28,15 @@
 
 .header-grid div {
     display: flex;
+}
+
+.search-bar {
+    height: 30px;
+    border-radius: 120px;
+    background-color: #E2E8F0;
+    border: none;
+    width: 600px;
+    margin-left: 15px;
 }
 
 .main-grid{
@@ -41,13 +54,12 @@
 .header{
     grid-area: header;
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
-
 }
     
 
 .main{
     grid-area: main;
+    padding: 20px;
     background-color: #E2E8F0;
     box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
 }
@@ -69,15 +81,24 @@
 .announcements-card {
     border: 1px solid black;
     font-size: 3rem;
-    background-color: #D9E7FF;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
 }
+
 .trending-card article {
     display: flex;
 }
 
 .card {
     border: 1px solid black;
-    background-color: #D9E7FF;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
+    height:150px;
+    border-radius: 4px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #0ea5e9, #0ea5e9 4px, transparent 5px, transparent); /* Replace with your desired color for the strip */
 }
 
 .svg-icons {
