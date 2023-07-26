@@ -18,7 +18,7 @@
 }
 
 .header{
-    margin-top: 15px;
+    margin: 15px;
     padding-bottom: 20px;
 }
 
@@ -61,7 +61,6 @@ height: 40px;
 width: 40px;
 object-fit: cover;
 border-radius: 50%;
-border: 1px solid grey;
 }
 
 .main-profile-picture{
@@ -119,12 +118,16 @@ border: 1px solid grey;
     width: fit-content;
 } */
 
+.logo{
+    padding-bottom: 20px ;
+}
+
 .sidebar{
     grid-area: sidebar;
     background-color: #36a5e1;
     font-size: 5rem;
     color: #ffffff;
-    padding-left: 40px;
+    padding: 20px 40px 40px 40px;
 }
 
 .main-profile-picture-text, .special-div{
@@ -133,7 +136,12 @@ border: 1px solid grey;
 }   
 
 .main-profile-picture-text p{
+    padding: 10px;
     font-weight: bold;
+}
+
+.announcements-card{
+
 }
 
 .trending-card,
@@ -147,7 +155,13 @@ border: 1px solid grey;
 
 .trending-card article {
     display: flex;
-    gap: 5px;
+    gap: 10px;
+    padding: 15px;
+}
+
+.trending-card p {
+    font-size: 13px;
+    padding: 5px;
 }
 
 .card {
@@ -172,4 +186,5 @@ border: 1px solid grey;
     align-items: center;
     gap: 15px;
     font-size: 3rem;
+    padding: 20px;
 }
