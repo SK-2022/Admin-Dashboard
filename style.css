@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-size: 62.5%;
+    margin: 0;
 }
 
 .container{
@@ -107,21 +108,26 @@ border: 1px solid grey;
     
 
 .main{
+    margin-right: 0;
     grid-area: main;
     padding: 20px;
     background-color: #E2E8F0;
     box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
 }
 
+/* .main-right-side{
+    width: fit-content;
+} */
+
 .sidebar{
     grid-area: sidebar;
-    background-color: FFFFFF;
+    background-color: #36a5e1;
     font-size: 5rem;
-    color: #6B7383;
+    color: #ffffff;
     padding-left: 40px;
 }
 
-.main-profile-picture-text{
+.main-profile-picture-text, .special-div{
     display: flex;
     flex-direction: column;
 }   
@@ -132,8 +138,7 @@ border: 1px solid grey;
 
 .trending-card,
 .announcements-card {
-    border: 1px solid black;
-    font-size: 3rem;
+    font-size: 30px;
     background-color: #ffffff;
     border-radius: 4px;
     padding: 20px;
@@ -142,10 +147,11 @@ border: 1px solid grey;
 
 .trending-card article {
     display: flex;
+    gap: 5px;
 }
 
 .card {
-    border: 1px solid black;
+    font-size: 1.3rem;
     background-color: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
     height:150px;
@@ -154,13 +160,13 @@ border: 1px solid grey;
     background-image: linear-gradient(to right, #0ea5e9, #0ea5e9 4px, transparent 5px, transparent); /* Replace with your desired color for the strip */
 }
 
-.svg-icons {
+.svg-icons-sidebar{
     height: 30px; /* Set SVG height to 100% of the container's height */
     width: 30px;
     margin: 0;
     padding: 0;
-    filter: invert(47%) sepia(7%) saturate(803%) hue-rotate(182deg) brightness(92%) contrast(88%);}
-
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(31deg) brightness(103%) contrast(102%);
+}
 .sidebar-item{
     display: flex;
     align-items: center;
