@@ -18,6 +18,38 @@
 
 .header{
     margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.header-top-right{
+    gap: 30px;
+}
+
+.header-buttons-container{
+    justify-content: center;
+    gap: 30px;
+}
+
+.header-buttons{
+    background-color: #0ea5e9;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+}
+
+.sub-profile-picture,.main-profile-picture{
+height: 40px;
+width: 40px;
+object-fit: cover;
+border-radius: 50%;
+border: 1px solid grey;
+}
+
+.main-profile-picture{
+    height: 60px;
+    width: 60px;
 }
 
 .header-grid{
@@ -28,6 +60,7 @@
 
 .header-grid div {
     display: flex;
+    align-items: center;
 }
 
 .search-bar {
