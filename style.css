@@ -25,9 +25,25 @@
     gap: 30px;
 }
 
+.header-bottom-left{
+    gap: 40px;
+}
+
 .header-buttons-container{
     justify-content: center;
     gap: 30px;
+}
+
+.greeting{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.main-account-name{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    margin: 0;
 }
 
 .header-buttons{
@@ -105,10 +121,14 @@ border: 1px solid grey;
     padding-left: 40px;
 }
 
-.special-div{
+.main-profile-picture-text{
     display: flex;
     flex-direction: column;
 }   
+
+.main-profile-picture-text p{
+    font-weight: bold;
+}
 
 .trending-card,
 .announcements-card {
