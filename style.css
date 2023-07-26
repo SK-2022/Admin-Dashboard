@@ -175,7 +175,8 @@ div.main-profile-picture-text{
     background-image: linear-gradient(to right, #0ea5e9, #0ea5e9 4px, transparent 5px, transparent); /* Replace with your desired color for the strip */
 }
 
-.svg-icons-header.svg-icons-sidebar{
+.svg-icons-header.svg-icons-sidebar,
+.svg-icons-main-cards{
     height: 20px;
     width: 20px;
     filter: invert(0%) sepia(97%) saturate(7453%) hue-rotate(330deg) brightness(89%) contrast(105%);
