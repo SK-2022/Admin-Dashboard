@@ -18,8 +18,9 @@
 }
 
 .header{
+    grid-area: header;
+    background-color: #FFFFFF;
     margin: 15px 30px 15px 40px ;
-    padding-bottom: 20px;
 }
 
 .header-top-right{
@@ -100,11 +101,15 @@ border-radius: 50%;
     gap: 10px;
 }
 
-.header{
-    grid-area: header;
-    background-color: #FFFFFF;
+.main-article-heading{
+    font-size: 12px;
+    font-weight: bold;
 }
-    
+
+.main-article-text{
+    color: #585858;
+    font-size: 12px;
+}
 
 .main{
     margin-right: 0;
@@ -114,9 +119,6 @@ border-radius: 50%;
     box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
 }
 
-/* .main-right-side{
-    width: fit-content;
-} */
 
 .logo{
     padding-bottom: 20px ;
@@ -141,9 +143,9 @@ div.main-profile-picture-text{
     align-items: flex-start;
 }
 
-.announcements-card{
+/* .announcements-card{
 
-}
+} */
 
 .trending-card,
 .announcements-card {
@@ -166,6 +168,8 @@ div.main-profile-picture-text{
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     font-size: 1.3rem;
     background-color: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
@@ -173,6 +177,16 @@ div.main-profile-picture-text{
     border-radius: 4px;
     padding: 20px;
     background-image: linear-gradient(to right, #0ea5e9, #0ea5e9 4px, transparent 5px, transparent); /* Replace with your desired color for the strip */
+}
+
+.main-article-grid .card{
+    justify-content: space-between;
+}
+
+.card-icon-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
 }
 
 .svg-icons-header.svg-icons-sidebar,
