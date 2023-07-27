@@ -13,7 +13,7 @@
     'sidebar main main main'
     'sidebar main main main';
     font-size: 10rem;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: 'Delicious handrawn', Arial, Helvetica, sans-serif;
     height: 100vh;
 }
 
@@ -55,6 +55,7 @@
     border-radius: 30px;
     width: 100px;
     height: 40px;
+    font-family: 'Delicious handrawn',Arial, Helvetica, sans-serif;
 }
 
 .sub-profile-picture,.main-profile-picture{
@@ -98,7 +99,7 @@ border-radius: 50%;
 .main-article-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
 }
 
 .main-article-heading{
