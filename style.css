@@ -6,7 +6,7 @@
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-areas: 
     'sidebar header header header'
     'sidebar main main main'
@@ -92,7 +92,7 @@ border-radius: 50%;
 
 .main-grid{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 5fr 1fr;
     gap: 10px;
 }
 
@@ -104,13 +104,13 @@ border-radius: 50%;
 }
 
 .main-article-heading{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
 .main-article-text{
     color: #585858;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .main{
@@ -161,7 +161,8 @@ div.main-profile-picture-text{
 }
 
 .announcements-content{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    color: #585858;   
 }
 .announcements-article{
     padding: 10px;
@@ -191,9 +192,15 @@ div.main-profile-picture-text{
     padding: 5px;
 }
 
-.trending-card p {
-    font-size: 1.3rem;
-    padding: 5px;
+
+.trending-card-account-name{
+    font-size: 1.5rem;
+}
+
+.trending-card-text{
+    font-size: 1.5rem;
+    color: #585858;  
+    padding: 5px; 
 }
 
 .card {
@@ -242,4 +249,5 @@ div.main-profile-picture-text{
 
 .card-grid-heading{
     padding-bottom: 15px;
+    font-size: 2rem;
 }
