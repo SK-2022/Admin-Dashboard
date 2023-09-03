@@ -147,8 +147,6 @@ border-radius: 50%;
 .main-right-side{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: fit-content;
 }
 
 div.main-profile-picture-text{
@@ -183,7 +181,7 @@ div.main-profile-picture-text{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal-offset Vertical-offset Blur-radius Spread-radius Color */
 }
 .trending-card{
-    height: 333px;
+    height: 335px;
 }
 
 .trending-card article {
