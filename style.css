@@ -3,6 +3,9 @@
     font-size: 62.5%;
     margin: 0;
 }
+html, body {
+    height: 100%;
+}
 
 .container{
     display: grid;
@@ -100,7 +103,7 @@ border-radius: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    height: 100%;
+    grid-row-gap: 110px;
 }
 
 .main-article-heading{
