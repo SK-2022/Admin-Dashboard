@@ -103,7 +103,7 @@ border-radius: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    grid-row-gap: 110px;
+    grid-row-gap: 101px;
 }
 
 .main-article-heading{
@@ -186,6 +186,9 @@ div.main-profile-picture-text{
 }
 .trending-card{
     height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .trending-card article {
